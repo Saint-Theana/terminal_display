@@ -1,1 +1,1 @@
-![image](https://github.com/Saint-Theana/terminal_display/raw/master/screenshot/1.png)
+![image](https://github.com/Saint-Theana/terminal_display/raw/master/pic/1.png)
