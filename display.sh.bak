@@ -33,7 +33,7 @@ function produce(){
 #获取字符串长度，中文按照两个长度计算，兼容符号，最好不要搞表情之类的。
 function gettextlength_beta(){
     alltext=$(echo "$1"|$sed 's/ /g/g')
-    alltext=$(echo "$alltext" |$tr -d "\n" |$od -An -c|$sed 's/[0-9]\{3\} [0-9]\{3\} [0-9]\{3\}/gg/g'|$tr -d " \n")
+    alltext=$(echo "$alltext" |$tr -d "\n" |$od -An -c|$sed 's/[0-9]\{3\} [0-9]\{3\} [0-9]\{3\}/gg/g'|$tr -d " ")
     alltextlength=${#alltext};
     echo ${alltextlength}
 }
